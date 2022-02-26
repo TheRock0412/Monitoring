@@ -5,7 +5,7 @@ from flask import Flask, redirect, render_template
 app = Flask(__name__)
 
 #Routes
-from versuch import user_routes
+from routes import user_routes
 
 #Start der MongoDB und connection
 #Commandline eingabe: brew services start mongodb-community
